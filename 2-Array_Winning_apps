@@ -1,0 +1,27 @@
+void main() {
+  List<String> WinningApps = [
+    "FNB Banking 12",
+    "SnapScan 13",
+    "Live Inspect 14",
+    "WumDrop 15",
+    "Domestly 16",
+    "Standard Bank Shyft 17",
+    "Khula 18",
+    "Naked Insurance 19",
+    "EasyEquities 20",
+    "Amabani 21"
+  ];
+
+  /** Sort and print apps by name */
+  WinningApps.sort();
+  print(WinningApps);
+
+  /** Print winning apps for 2017 & 2018 */
+  print(WinningApps.sublist(4, 5));
+  print(WinningApps.sublist(8, 9));
+
+  /** Print total number of apps from array */
+  for (var i = 0; i < WinningApps.length; i++) {
+    print(WinningApps.length);
+  }
+}
