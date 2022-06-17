@@ -1,0 +1,9 @@
+void main() {
+  String name = "Nomcebo";
+  String favouriteApp = "Voloco";
+  String city = "Mbombela";
+
+  print(name);
+  print(favouriteApp);
+  print(city);
+}
